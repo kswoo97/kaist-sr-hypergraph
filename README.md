@@ -4,11 +4,23 @@ This repository describes how to run code for performing:
 - Task 1: Node disambiguation
 - Task 2: Local clustering
 
-## Step 1: Data preparation
+## Step 1: Preparation
+
+### Datasets
 
 All required datasets are located in the below link:
 
 https://www.dropbox.com/sh/qhz6rqol5mue4wc/AAByciJuLNba8uGv8MdMpbf-a?dl=0
+
+### Packages
+
+The following version (or later) of packages is required
+```
+numpy == 1.21.2
+torch == 1.12.1
+torch_geometric == 2.2.0
+sklearn == 1.0.2
+```
 
 ## Step 2: Run code
 
